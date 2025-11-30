@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "dev": "nodemon index.js",
-    "start": "nodemon index.js"
+    "dev": "nodemon app.js",
+    "start": "nodemon app.js"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +16,8 @@
     "joi": "^18.0.2",
     "mongoose": "^9.0.0",
     "nodemon": "^3.1.11",
-    "sequelize": "^6.37.7"
+    "sequelize": "^6.37.7",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
   }
 }
